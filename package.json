@@ -1,8 +1,8 @@
 {
-  "name": "freecodecamp-guide",
+  "name": "bigdatamx-guide",
   "description": "A collection of guides to various tools",
   "version": "0.1.0",
-  "author": "freeCodeCamp",
+  "author": "bigdatamx",
   "dependencies": {
     "axios": "^0.16.2",
     "babel-eslint": "^7.2.3",
@@ -25,6 +25,7 @@
     "gatsby-transformer-remark": "^1.6.3",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
+    "react-bigdatamx-search": "^1.0.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
     "react-fontawesome": "^1.6.1",
@@ -41,7 +42,7 @@
     "pre-commit": "^1.2.2"
   },
   "keywords": [
-    "freeCodeCamp",
+    "bigdata",
     "guides",
     "javascript"
   ],

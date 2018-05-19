@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://guide.freecodecamp.org',
-    title: 'freeCodeCamp Guide'
+    siteUrl: 'https://bigdatamx.org',
+    title: 'Guias BigDataMx'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
