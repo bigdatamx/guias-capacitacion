@@ -48,20 +48,20 @@ function Layout({ data, children }) {
               className='skip-link sr-only sr-only-focusable'
               href='#main'
               >
-              Skip to main content
+              Pasa al contenido principal
             </a>
             <Link
               className='link'
               to={ '/' }
               >
               <Image
-                alt='freeCodeCamp logo'
+                alt='logo BigDataMx'
                 className='logo'
                 responsive={ true }
                 src={ logo }
               />
               <Image
-                alt='freeCodeCamp logo'
+                alt='logo BigDataMx'
                 className='logo-glyph'
                 src={ glyph }
               />

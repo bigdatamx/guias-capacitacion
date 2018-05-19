@@ -48,7 +48,7 @@ class Article extends React.Component {
     if (description !== null) {
       return description[1].replace(/<[^>]*>/i, '');
     } else {
-      return 'FreeCodeCamp Guide';
+      return 'Guia BigDataMx';
     }
   }
 
@@ -80,13 +80,13 @@ class Article extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>{ `${title} | freeCodeCamp Guide` }</title>
+          <title>{ `${title} | guia BigDataMx` }</title>
           <link
-            href={ `https://guide.freecodecamp.org${slug}` }
+            href={ `https://guide.bigdatamx.org${slug}` }
             rel='canonical'
           />
           <meta
-            content={ `https://guide.freecodecamp.org${slug}` }
+            content={ `https://guide.bigdatamx.org${slug}` }
             property='og:url'
           />
           <meta
