@@ -1,0 +1,3 @@
+---
+title: Adquisicion de datos
+---
