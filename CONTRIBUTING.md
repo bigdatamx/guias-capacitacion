@@ -44,7 +44,7 @@ Con tu ayuda, podemos crear una herramienta de referencia de facil entendimiento
   - [Aplastar y mezclar](#aplastar-y-combinar)
   - [Filtado de PRs](#filtrado-de-relaciones-públicas)
   - [Plantillas](#plantillas)
-    - [Error de compilación](#Error-de-compilación)
+    - [Error de compilación](#error-de-compilación)
     - [Sincronización de bifurcaciones](#sincronización-de-horquillas)
     - [Mezclando conflictos](#conflictos-de-fusión)
     - [Duplicidad](#duplicidad)
