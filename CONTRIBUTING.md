@@ -6,7 +6,7 @@ Con tu ayuda, podemos crear una herramienta de referencia de facil entendimiento
 
 <!-- TOC -->
 
-- [Contribución](#contributing)
+- [Contribución](#Contribución)
   - [Pasos](#Pasos)
   - [Creando un PR](#creating-a-pr)
     - [Usando GitHub.com](#using-githubcom)
@@ -135,24 +135,22 @@ yarn run dev
 
 Usamos `yarn` porque `netlify` compila el sitio con `yarn`.
 
-## tu PR aprovada
+## Tu PR aprovada
 
 Aqui hay una guia que siguen los revisores de contenido para los PR:
 
-
-Here are a few guidelines the reviewers follow when reviewing PRs:
-- La descripcion y el titulo son relevantes
+- La descripcion y el titulo son relevantes.
 - La PR respeta el [guia de estilo de articulo](./CONTRIBUTING.md/#article-style-guide)
 - Sigue los tips generales  encontrados en [Guia de moderador](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
-- Con que el pull request mejore o expanda la guia, lo aceptamos aunque contenga errores de sintaxis en Español o en el contenido parcial.
-- Pull request viejos son revisados primero
+- Que el pull request mejore o expanda la guia, lo aceptamos aunque contenga errores de sintaxis en Español o en el contenido parcial.
+- Se revisan los pull request anteriores.
 
 ### Etiquetas
 
-- **content** es para pull request que modifican el contenido de los articulos en la guia (agregan un nuevo articulo o actualizan un articulo existente)
-- **duplicate** es para pull requests que tienen el mismo contenido que en otro PR abierto
-- **changes requested** es para pull request que necesitan un cambio antes de ser aceptadas
-- **stale** es para pull requests con la etiqueta _"changes requested"_ que no tienen actividad por mas de 2 semanas y subsqcuentemente seran cerrados.
+- **content** es para pull request que modifica el contenido de los articulos en la guia (agregan un nuevo articulo o actualizan un articulo existente).
+- **duplicate** es para pull requests que tienen el mismo contenido que en otro PR abierto.
+- **changes requested** es para pull request que necesitan un cambio antes de ser aceptadas.
+- **stale** es para pull requests con la etiqueta _"changes requested"_ que no tienen actividad por mas de 2 semanas y subsecuentemente seran cerrados.
   - las _stale_ pull request deben de estar cerradas.
   - Aqui hay [un ejemplo](https://github.com/freeCodeCamp/guides/pull/235).
 
@@ -162,9 +160,9 @@ Una PR es considerada un **Duplicado** si le hace cambios al mismo articulo con 
 
 En general, un revisor deberá:
 
-1. Ordenar las PR por la mas vieja
-2. Buscar PR con contenido similar
-3. Combinar la PR mas nueva con la mas vieja
+1. Ordenar las PR por la mas vieja.
+2. Buscar PR con contenido similar.
+3. Combinar la PR mas nueva con la mas vieja.
 
 Es muy probable que existan conflictos al combinar PRs duplicadas.
 
@@ -172,11 +170,13 @@ Los revisores harán un esfuerzo a resolver estos conflictos en la combinación 
 
 ### Pedir cambios
 
-Si una pull request no es perfecta, el revisor podrá:
-- pedir cambios al contribuidor y agregar la etiqueta *cambios pedidos*
-- Arreglar cambios menores y hacer un commit sobre la PR
+Si un pull request no es perfecto, el revisor podrá:
+
+- Pedir cambios al contribuidor y agregar la etiqueta *cambios pedidos*.
+- Arreglar cambios menores y hacer un commit sobre la PR.
 
 ### Compilacion Travis CI 
+
 Todas las PRs deben de pasar la verificación de Travis CI antes de que podamos combinarlos.
 
 Si una PR rompe la compilación (Travis CI mostrara una "X" roja) habra dos tipos de soluciones.
@@ -202,18 +202,18 @@ Nosotros cerramos un pull request :
 - si hay texto de un origen con copyright - ver [problema con citas](https://github.com/freeCodeCamp/guides/issues/2503)
 
 - si no respecta la [guia de estilo en artículos](#article-style-guide)
+
 - si no respeta la [política de honestidad académica](https://www.freecodecamp.org/academic-honesty)
+
 - si se ha hecho un request y no hay actividad por aproximadamente dos semanas
 
-Si estas trabajando en un articulo plantilla, los cambios deben de ser significativos para cambiar el texto en la plantilla.
+- Si estas trabajando en un articulo plantilla, los cambios deben de ser significativos para cambiar el texto en la plantilla.
 
 No aceptaremos una PR que solo agrega links a la sección de "Mas información".
 
-El respositorio tiene un script `Normalise.js` que agrega atributos a los links pero también verifica si existe el texto "esta es una plantilla" mediante un regexp.
+El respositorio tiene un script `Normalise.js` que agrega atributos a los links pero también verifica si existe el texto "esta es una plantilla" mediante un regexp, si lo encuentra, revertira el articulo a un documento sin contenido para generar un "stub" de texto  (y borrara los cambios.
 
-If found, it will revert the article text back to the generic stub text (and erase your changes).
-
-This is intended behavior, since it allows us to update all stubs if the template stub changed for any reason.
+Lo anterior es un comportamiento previsto, esto nos permite actualizar todos los stubs si el stub de la plantilla ha cambiado por algún motivo.
 
 ### Obteniendo ayuda
 
@@ -239,35 +239,35 @@ Listamos algunos ejemplos de títulos
 
 > [`src / pages / html / tables / index.html`] (https://github.com/freeCodeCamp/guides/blob/master/src/pages/html/tables/index.md)
 
-```markdown
+```
+
 ---
 título: Tablas
 ---
+
+
 ```
 
 > [`src / pages / css / borders / index.md`] (https://github.com/freeCodeCamp/guides/blob/master/src/pages/css/borders/index.md)
 
-```markdown
+```
+
 ---
 título: Fronteras
 ---
+
 ```
 
 > [`src / pages / javascript / loops / for-loop / index.md`] (https://github.com/freeCodeCamp/guides/blob/master/src/pages/javascript/loops/for-loop/index .Maryland)
 
-```markdown
+```
+
 ---
 título: For Loop
 ---
+
 ```
 
-### Modularity
-
-Each article should explain exactly one concept, and that concept should be apparent from the article's title.
-
-We can reference other articles by linking to them inline, or in an "Other Resources" section at the end of the article.
-
-Our goal is to have thousands of articles that cover a broad range of technical topics.
 
 ### Modularidad
 
@@ -288,25 +288,29 @@ Para usarlo, se debe poner el lenguaje de programación después de el ```.
 
 Por ejemplo, el siguiente Markdown
 
-```markdown
-    ```html
+``` 
+    ```
+    html
     <div class = 'awesome' id = 'más-impresionante'>
       <p> Esto es texto en html </ p>
     </div>
+    
     ```
 ```
 
 dará salida al siguiente bloque de código con resaltado de sintaxis `HTML` ya que indicamos el lenguaje es ` html` después de ```.
 
-```html
-<div class = 'awesome' id = 'más-impresionante'>
-  <p> Esto es texto en html </ p>
-</ div>
+```
+    html
+    <div class = 'awesome' id = 'más-impresionante'>
+        <p> Esto es texto en html </ p>
+    </ div>
+
 ```
 
 A continuación, se muestran otros dos ejemplos que utilizan el lenguaje de JavaScript y CSS.
 
-```markdown
+```
     ```javascript
         function logTheThings (cosas) {
           console.log (cosas);
@@ -320,11 +324,12 @@ A continuación, se muestran otros dos ejemplos que utilizan el lenguaje de Java
     ```
 ```
 
-Aquí ejemplo para el uso bloques de código:
+Algunos tips para el uso bloques de código:
 
 - Las sentencias de JavaScript deben terminar con un punto y coma `;`
 - Los comentarios realizados deben tener un espacio entre los caracteres de comentario y el comentario, de esta forma:
-    ```javascript
+    ```
+    javascript
     // Comentario prueba
     ```
 ### Enlaces
@@ -333,7 +338,8 @@ Use los enlaces web con el estilo de markup en sus artículos para vincular a ot
 
 la forma de utilizarlo es la siguiente:
 
-```markdown
+```
+markdown
 [BigdataMx] (https://guias.bigdatamx.org)
 ```
 
@@ -345,7 +351,8 @@ No permitimos el alojamiento de imágenes directamente en el repositorio de git 
 
 Para incluir la imagen en su artículo, use la sintaxis de reducción apropiada:
 
-```markdown
+```
+markdown
 ! [Título de la imagen] (https: // url-to-image)
 ```
 
@@ -353,7 +360,7 @@ También las imágenes deberían aparecer al hacer clic en la pestaña <kcd> Vis
 
 También puedes agregar diagramas, gráficos o visualizaciones.
 
-También insertár videos de YouTube relevantes y editores de códigos [REPL.it] (https://repl.it/) interactivos.
+También insertár videos de YouTube relevantes y editores de códigos [REPL.it](https://repl.it/) interactivos.
 
 No se deberá usar emojis o emoticones en la Guía. Bigdatamx tiene una comunidad global, y el significado cultural de un emoji o emoticon puede ser diferente en todo el mundo. Además, los emojis pueden representarse de manera diferente en diferentes sistemas.
 
@@ -371,7 +378,8 @@ Por ejemplo: <sup> 1 </sup>
 
 Después, en la parte inferior de su artículo, coloque una
 
-```markdown
+```
+markdown
 ### Fuentes
 ```
 
@@ -379,7 +387,8 @@ Agregue un encabezado e incluya todas sus citas con numero para listar a sus fue
 
 Por ejemplo:
 
-```markdown
+```
+markdown
 Texto que debería citarse. <Sup> 1 </ sup>
 
 Y aquí hay aún más que deberá citarse de otra fuente. <Sup> 2 </ sup>
@@ -407,10 +416,12 @@ Consulta las [Políticas de Honestidad Académica] de Bigdata Mx (https://www.fr
 
 Si hay otros recursos de la guía que piensas que beneficiarían los lectores, agrégalos en la parte inferior de la sección de "Recursos" con una lista.
 
-```markdown
+```
+markdown
 ### Recursos
 
 - [Un nuevo recurso] (# enlace)
+
 ```
 
 ### Formateo
@@ -486,24 +497,23 @@ El desarrollo de front-end (forma adjetiva con un guion) es cuando se trabaja en
 
 ### Herramientas de terceros
 
-Para verificar la gramática y la ortografía, recomendamos usar una aplicación como [Grammarly] (https://grammarly.com) o una extensión / complemento integrado que verifique esto en su editor de texto como lo son:
+Para verificar la gramática y la ortografía, recomendamos usar una aplicación como [Grammarly](https://grammarly.com) o una extensión / complemento integrado que verifique esto en su editor de texto como lo son:
 
-- [Código VS] (https://code.visualstudio.com/) - [Código Corrector ortográfico] (https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Sublime Text 3] (https://www.sublimetext.com/docs/3/spell_checking.html)
-
-Para verificar su estilo de escritura, recomendamos la [Aplicación Hemingway] (http://www.hemingwayapp.com/).
+- [Código VS](https://code.visualstudio.com/) - [Código Corrector ortográfico](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Sublime Text 3](https://www.sublimetext.com/docs/3/spell_checking.html)
+Para verificar su estilo de escritura, recomendamos la [Aplicación Hemingway](http://www.hemingwayapp.com/).
 
 No hay nada mágico en esta sencilla herramienta, pero detectará automáticamente problemas de estilo ampliamente acordados:
 
-- voz pasiva
-- adverbios innecesarios
-- palabras que tienen equivalentes más comunes
+- Voz pasiva
+- Adverbios innecesarios
+- Aalabras que tienen equivalentes más comunes
 
 La aplicación Hemingway asignará un "nivel de grado" para su escritura.
 
 Debes aspirar a un nivel de grado de 6.
 
-Otra herramienta disponible es la [De-Jargonizer] (http://scienceandpublic.com/), originalmente diseñada para la comunicación científica, pero podría ayudar a evitar una redacción sobreespecializada.
+Otra herramienta disponible es la [De-Jargonizer](http://scienceandpublic.com/), originalmente diseñada para la comunicación científica, pero podría ayudar a evitar una redacción sobreespecializada.
 
 ---
 
@@ -515,9 +525,9 @@ Otra herramienta disponible es la [De-Jargonizer] (http://scienceandpublic.com/)
 
 Usamos la opción <kcd> Aplastar y combinar </kcd> al fusionar el PR que mantiene limpio el historial de confirmaciones.
 
-! [GIF - Aplastar and merge] (https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
+! [GIF - Aplastar and merge](https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
 
-## filtrado de relaciones públicas
+## Filtrado de relaciones públicas
 
 > Relaciones Públicas, Abierto, El más antiguo Primero, Travis CI Build exitoso, nadie asignado, no hay comentarios
 
@@ -529,11 +539,12 @@ Usamos la opción <kcd> Aplastar y combinar </kcd> al fusionar el PR que mantien
 
 ## Plantillas
 
-> Puede hacer la suya con la función [** replies saved **] (https://github.com/settings/replies/) integrada de GitHub o usar las siguientes.
+> Puede hacer la suya con la función [** replies saved **](https://github.com/settings/replies/) integrada de GitHub o usar las siguientes.
 
 ### Error de compilación
 
-```markdown
+```
+markdown
 Hola, @username
 
 Así que me encantaría poder fusionar los cambios, pero parece que hay un error con la compilación de Travis CI. ⚠️
@@ -551,7 +562,8 @@ Una vez que resuelva estos problemas, podré revisar sus relaciones públicas y 
 
 > Cuando un PR no está actualizado con la rama `master`.
 
-```` `` markdown
+```
+ markdown
 Hola, @username
 
 Así que me encantaría poder fusionar los cambios, pero parece que hay un error con la compilación de Travis CI. ⚠️
@@ -566,23 +578,26 @@ Para pasar la compilación, deberá sincronizar los últimos cambios desde la ra
 
 Usando la línea de comando, puede hacer esto en tres sencillos pasos:
 
-```bash
+```
+bash
 git remote add upstream git: //github.com/freeCodeCamp/guides.git
 
 git buscar aguas arriba
 
 git pull upstream master
+
 ```
 
 Si está usando una GUI, puede simplemente `Agregar un nuevo control remoto ...` y usar el enlace `git: // github.com / freeCodeCamp / guides.git` desde arriba.
 
-Una vez que sincronice su fork y pase la compilación, podré revisar su PR y fusionarla. 😊
+Una vez que sincronice su fork y pase la compilación, podré revisar su PR y fusionarla. 
 
 ---
 
-> Sientete libre de hacer referencia al artículo [Syncing a Fork] (https://help.github.com/articles/syncing-a-fork/) en GitHub para obtener más información sobre cómo mantener su tenedor actualizado con el repositorio aguas arriba 🔄
+> Sientete libre de hacer referencia al artículo [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/) en GitHub para obtener más información sobre cómo mantener su tenedor actualizado con el repositorio aguas arriba 🔄
 >
 > Además, es una buena práctica en GitHub escribir una breve descripción de los cambios al crear un PR. 📝
+
 ```
 ### Conflictos de fusión
 
@@ -607,14 +622,16 @@ Una vez que resuelva estos conflictos, podré revisar su PR y fusionarlo. 😊
 
 > Cuando una PR es repetitivo o duplicado.
 
-```markdown
+```
+markdown
+
 Hola, @username
 
 Parece que cambios similares ya han sido aceptados anteriormente para este artículo que está editando, lo siento. 😓
 
 Si cree que tiene más para agregar, no dude en abrir un nuevo RP.
 
-¡Gracias de nuevo! 😊
+¡Gracias de nuevo! 
 
 ---
 
@@ -625,10 +642,12 @@ Si cree que tiene más para agregar, no dude en abrir un nuevo RP.
 
 > Cuando una PR no es válido.
 
-```markdown
+```
+markdown
 Hola, @username
 
 En realidad, no ha agregado ningún contenido, por lo que cerraré este anuncio y lo marcaré como "no válido". 😓️
 
 ¡Siéntete libre de abrir otro RP! 👍
+
 ```

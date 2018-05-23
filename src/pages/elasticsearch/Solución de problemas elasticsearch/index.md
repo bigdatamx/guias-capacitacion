@@ -1,4 +1,4 @@
 ---
-title: Troubleshooting Elasticsearch    2
+title: Solución de problemas elasticsearch
 ---
-#En construcción
+#Pendiente por desarrollar
