@@ -7,52 +7,52 @@ Con tu ayuda, podemos crear una herramienta de referencia de facil entendimiento
 <!-- TOC -->
 
 - [Contribución](#Contribución)
-  - [Pasos](#Pasos)
-  - [Creando un PR](#creating-a-pr)
-    - [Usando GitHub.com](#using-githubcom)
-    - [Clonación local](#cloning-locally)
-    - [Ejecutando localmente](#running-locally)
-  - [Obtener PR Accepted](#getting-pr-accepted)
-    - [Etiquetas](#labels)
-    - [Confligtos/Contenido Duplicado](#conflictingduplicate-content)
-    - [Solicitud de cambios](#requesting-changes)
-    - [Compilación Travis CI](#travis-ci-build)
-    - [Cierre](#closing)
-    - [Ayuda](#getting-help)
-  - [Articulo guias de estilo](#article-style-guide)
-    - [Titulo](#title)
-    - [Modularidad](#modularity)
-    - [Bloques de Código](#code-blocks)
-    - [Enlaces](#links)
-    - [Imagenes](#images)
-    - [Atribuciones](#attributions)
-    - [Recursos](#resources)
-    - [Formatos](#formatting)
-  - [Tecnicas de escritura](#technical-writing)
+  - [Pasos](#pasos)
+  - [Creando un PR](#creando-un-pr)
+    - [Usando GitHub.com](#usando-gitHub.com)
+    - [Clonación local](#clonar-localmente)
+    - [Ejecutando localmente](#ejecutando-localmente)
+  - [Tu PR aprovada](#tu-pr-aprovada)
+    - [Etiquetas](#etiquetas)
+    - [Contenido Duplicado o Conflictivo](#contenido-duplicado-o-conflictivo)
+    - [Pedir cambios](#pedir-cambios)
+    - [Compilación Travis CI](#compilacion-ravis-ci)
+    - [Cierre](#cierre)
+    - [Obteniendo Ayuda](#obteniendo-ayuda)
+  - [Guia de estilo para articulos](#guia-de-estilo-para-articulos)
+    - [Titulo](#titulo)
+    - [Modularidad](#modularidad)
+    - [Bloques de Código](#bloques-de-codigo)
+    - [Enlaces](#enlaces)
+    - [Imagenes](#imagenes)
+    - [Atribuciones](#atribuciones)
+    - [Recursos](#recursos)
+    - [Formato](#formato)
+  - [Escritura técnica](#escritura-tecnica)
     - [Resumen](#outline)
-    - [Introducción](#intro)
-    - [Contenido](#content)
-    - [Claridad](#clarity)
-    - [Voz](#voice)
-      - [Pasivo](#passive)
-      - [Activo](#active)
-    - [Puntos de Vista](#point-of-view)
-    - [Abreviaciones](#abbreviations)
-    - [Nombres propios](#proper-nouns)
-    - [Herramientas de terceros](#third-party-tools)
-- [Revisando PRs](#reviewing-prs)
-  - [Funcionar y mezclar](#squash-and-merge)
-  - [Filtado de PRs](#filtering-prs)
-  - [Plantillas](#templates)
-    - [Error de compilación](#build-error)
-    - [Sincronización de bifurcaciones](#syncing-fork)
-    - [Mezclando conflictos](#merge-conflicts)
-    - [Duplicidad](#duplicate)
-    - [Cierre](#closing-1)
+    - [Introducción](#introduccion)
+    - [Contenido](#contenido)
+    - [Claridad](#claridad)
+    - [Voz](#voz)
+      - [Pasivo](#pasivo)
+      - [Activo](#activo)
+    - [Puntos de Vista](#puntos-de-vista)
+    - [Abreviaturas](#abreviaturas)
+    - [Nombres propios](#nombres-propios)
+    - [Herramientas de terceros](#herramientas-de-terceros)
+- [Revisando PRs](#revision-de-relaciones-publicas)
+  - [Aplastar y mezclar](#aplastar-y-combinar)
+  - [Filtado de PRs](#filtrado-de-relaciones-publicas)
+  - [Plantillas](#plantillas)
+    - [Error de compilación](#Error-de-compilacion)
+    - [Sincronización de bifurcaciones](#sincronización-de-horquillas)
+    - [Mezclando conflictos](#conflictos-de-fusión)
+    - [Duplicidad](#duplicidad)
+    - [Clausura](#clausura)
 
 <!-- /TOC -->
 
-## Pasos
+# Pasos
 
 1. 🍴 [Darle Fork este repositorio](https://github.com/freeCodeCamp/guides#fork-destination-box)
 2. 👀️ Siga las guias de contribución resumidas a continuación.
@@ -112,7 +112,7 @@ La proxima vez que quieras contribuir, hazle checkout a tu branch local `master`
 
 Esto tomará todos los cambios en el `master` original sin hacer un commit adicional en tu repositorio local.
 
-### Correrlo local
+### Ejecutando localmente
 
 ```bash
 # Asegurate de tener yarn instalado
@@ -154,7 +154,7 @@ Aqui hay una guia que siguen los revisores de contenido para los PR:
   - las _stale_ pull request deben de estar cerradas.
   - Aqui hay [un ejemplo](https://github.com/freeCodeCamp/guides/pull/235).
 
-### Contenido Duplicado/Conflictivo
+### Contenido Duplicado o Conflictivo
 
 Una PR es considerada un **Duplicado** si le hace cambios al mismo articulo con una PR diferente.
 
@@ -424,7 +424,7 @@ markdown
 
 ```
 
-### Formateo
+### Formato
 
 Use comillas dobles donde corresponda.
 
@@ -598,8 +598,9 @@ Una vez que sincronice su fork y pase la compilación, podré revisar su PR y fu
 >
 > Además, es una buena práctica en GitHub escribir una breve descripción de los cambios al crear un PR. 📝
 
-```
 ### Conflictos de fusión
+
+```
 
 > Cuando la PR tiene conflictos de fusión que deben resolverse.¹
 
@@ -618,7 +619,7 @@ Una vez que resuelva estos conflictos, podré revisar su PR y fusionarlo. 😊
 ```
 ¹ Si un contribuyente primerizo tiene un conflicto de fusión, los mantenedores resolverán el conflicto por ellos.
 
-### Duplicar
+### Duplicidad
 
 > Cuando una PR es repetitivo o duplicado.
 
