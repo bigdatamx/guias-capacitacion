@@ -1,4 +1,6 @@
 ---
-title: Document Modeling
+title: Modelado de documentos.
 ---
-#En construcción
+#Pendiente por desarrollar.
+
+Este es un stub.

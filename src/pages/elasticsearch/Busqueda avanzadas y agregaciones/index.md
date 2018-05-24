@@ -1,4 +1,6 @@
 ---
-title: Advanced Search and Aggregations
+title: Búsqueda avanzada y Aggregations
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

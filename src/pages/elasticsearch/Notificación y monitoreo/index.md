@@ -1,4 +1,6 @@
 ---
-title: Monitoring and Alerting
+title: Notificación y monitoreo
 ---
-#En construcción
+#Pendiente por desarrollar.
+
+Este es un stub.

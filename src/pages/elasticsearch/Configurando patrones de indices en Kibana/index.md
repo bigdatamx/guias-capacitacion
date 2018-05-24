@@ -1,4 +1,6 @@
 ---
-title: Configuring Kibana Index Patterns
+title: Configuración pantrones de indices Kibana 
 ---
-#En produccin
+#Pendiente por desarrollar
+
+Este es un stub.

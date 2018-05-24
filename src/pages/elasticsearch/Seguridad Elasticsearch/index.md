@@ -1,4 +1,6 @@
 ---
-tittle: Securing Elasticsearch
+tittle: Seguridad Elasticsearch
 ---
-#En producción
+#Pendientes por desarrollar
+
+Este es un stub.

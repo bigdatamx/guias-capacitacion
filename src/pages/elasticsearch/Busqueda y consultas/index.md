@@ -1,4 +1,6 @@
 ---
-title: Search Queries
+title: Busquedas y consultas
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

@@ -1,5 +1,5 @@
 ---
-title: Interfaz de visualización kibana
+title: Gestión de cluster
 ---
 #Pendiente por desarrollar
 

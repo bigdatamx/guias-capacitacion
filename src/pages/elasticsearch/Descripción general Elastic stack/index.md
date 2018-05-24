@@ -1,4 +1,6 @@
 ---
-title: Elastic Stack Overview 1
+title: Descripción general de Elastic Stack 
 ---
-#En construcción
+#Pendiente por desarrollar 
+
+Este es un stub.

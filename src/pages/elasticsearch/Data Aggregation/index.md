@@ -1,5 +1,5 @@
 ---
-title: Análisis de datos kibana
+title:  Aggregating Data
 ---
 #En construcción
 

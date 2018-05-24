@@ -1,4 +1,6 @@
 ---
-title: v Improving Search Results    2
+title: Mejorando el resultado de las consultas
 --
-#En producción
+#Pendiente por desarrollar.
+
+Este es un stub.

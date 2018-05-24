@@ -1,5 +1,5 @@
 ---
-title: Interfaz de visualización kibana
+title: Analizando datos  logs de Apache
 ---
 #Pendiente por desarrollar
 

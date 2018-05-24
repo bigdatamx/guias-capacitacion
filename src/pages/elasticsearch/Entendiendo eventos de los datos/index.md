@@ -1,5 +1,5 @@
 ---
-title: Interfaz de visualización kibana
+title: Entendiendo eventos de los datos
 ---
 #Pendiente por desarrollar
 

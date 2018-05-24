@@ -1,4 +1,6 @@
 ---
-title: Moving from Dev to Production
+title: Migrando de desarrollo a producción
 ---
-#En construccións
+#Pendiente por desarrollar
+
+Este es un stub.

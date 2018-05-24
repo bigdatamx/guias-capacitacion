@@ -1,4 +1,6 @@
 ---
-title: Advanced Elastic Search
+title: Busquedas avanzadas en elastic
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

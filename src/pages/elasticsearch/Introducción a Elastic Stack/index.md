@@ -1,4 +1,6 @@
 ---
-title: Introduction to the Elastic Stack
+title: Introducción a Elastick stack
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

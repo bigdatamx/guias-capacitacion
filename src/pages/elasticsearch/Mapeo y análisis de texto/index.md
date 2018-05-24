@@ -1,4 +1,6 @@
 ---
-title: Text Analysis and Mappings
+title: Mapeo y análisis de texto.
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

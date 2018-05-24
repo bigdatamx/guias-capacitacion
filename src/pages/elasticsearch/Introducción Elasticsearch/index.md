@@ -1,4 +1,6 @@
 ---
 title: Introducción Elasticsearch
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

@@ -1,4 +1,6 @@
 ---
-title: Kibana Discover Interface
+title: Interfaz de exploración kibana
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

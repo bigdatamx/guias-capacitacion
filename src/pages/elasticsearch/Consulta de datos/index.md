@@ -1,4 +1,6 @@
 ---
-title: Querying Data
+title: Consulta de datos.
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

@@ -1,5 +1,7 @@
 ---
-title: Getting Started with Elasticsearch1
+title: Primeros pasos Elesticsearch
 ---
 
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

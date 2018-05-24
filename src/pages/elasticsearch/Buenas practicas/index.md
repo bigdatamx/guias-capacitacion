@@ -1,4 +1,6 @@
 ---
-title: Best Practices
+title: Buenas practicas
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.

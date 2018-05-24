@@ -1,4 +1,6 @@
 ---
-title: Kibana Dashboard Interface
+title: Interfaz kiabana dashboard
 ---
-#En construcción
+#Pendiente por desarrollar
+
+Este es un stub.
