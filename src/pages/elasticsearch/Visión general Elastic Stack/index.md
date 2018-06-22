@@ -1,5 +1,5 @@
 ---
-title: Introducción a Elastick stack
+title: Visión general de Elastick stack
 ---
 #Pendiente por desarrollar
 
