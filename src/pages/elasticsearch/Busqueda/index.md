@@ -21,7 +21,8 @@ se utiliza la letra q para definirle un tipo de búsqueda.
 Cabe mencionar que este tipo de búsqueda es para datos básicos, es decir que no son de tipo arreglo, objeto o nested.
 
 esta es un ejemplo de la respuesta 
-```json
+```
+json
 {
     "timed_out": false,
     "took": 62,
@@ -55,7 +56,8 @@ esta es un ejemplo de la respuesta
 ## La búsqueda en el cuerpo de la solicitud
 
 La solicitud de búsqueda se puede ejecutar con una búsqueda DSL, que incluye la Query DSL , dentro de su cuerpo. Aquí hay un ejemplo:
-```json
+```
+json
 GET /venta/_search
  { "query" : 
     { "term" : 
